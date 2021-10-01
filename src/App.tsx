@@ -5,7 +5,7 @@ import Home from "./Home";
 import Toolbar from "@material-ui/core/Toolbar";
 import * as anchor from "@project-serum/anchor";
 import Grid from '@material-ui/core/Grid'
-import { Button, CircularProgress, Snackbar } from "@material-ui/core";
+import { Button,  } from "@material-ui/core";
 import Background from "./background4.jpg";
 import gify from "./1.gif";
 import logo from "./LOGO1.png";
