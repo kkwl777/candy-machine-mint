@@ -109,8 +109,8 @@ const App = () => {
             <div style={{width:'10vw'}}> <img style={{height:'10vh'}}src={logo} alt="loading..." /></div>
             <div style={{width:'80vw' ,fontFamily:"Times New Roman"}}>Project Cthuwu </div>
             <div style={{width:'10vw'}}>
-            <Button ><a href="https://discord.gg/mwTg9N8szn" target="_blank">Discord</a></Button>
-              <Button ><a href="https://twitter.com/" target="_blank">Twitter</a></Button> </div> 
+            <Button ><a href="https://discord.gg/mwTg9N8szn" target="_blank" rel="noopener noreferrer">Discord</a></Button>
+              <Button ><a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">Twitter</a></Button> </div> 
              
              
              </Toolbar>
@@ -215,7 +215,7 @@ const App = () => {
                   <p> 
                     <Button ><h1 style={{fontFamily:"Times New Roman" ,fontSize:'26px'}}>
                   
-                  <a href="https://solands.xyz/#/" target="_blank">SOLANDS.XYZ</a></h1> </Button>
+                  <a href="https://solands.xyz/#/" target="_blank" rel="noopener noreferrer" >SOLANDS.XYZ</a></h1> </Button>
                   </p>
              
                   </div></div>
