@@ -6,10 +6,14 @@ import Toolbar from "@material-ui/core/Toolbar";
 import * as anchor from "@project-serum/anchor";
 import Grid from '@material-ui/core/Grid'
 import { Button,  } from "@material-ui/core";
-import Background from "./background4.jpg";
+import Background from "./background7.png";
+
+
 import gify from "./1.gif";
 import logo from "./LOGO1.png";
-
+import cash from "./cash.png";
+import ecosys from "./ecosys.png";
+import exp from "./4.png";
 import { clusterApiUrl } from "@solana/web3.js";
 import { WalletAdapterNetwork } from "@solana/wallet-adapter-base";
 import {
@@ -90,7 +94,7 @@ const App = () => {
 
   return (
     <Grid container>
-    <Grid item xs={12}   style={{background: `url(${Background})`, backgroundPosition: 'center',
+    <Grid item xs={12}   style={{ backgroundImage: `url(${Background})` , backgroundPosition: 'center', 
   backgroundSize: 'cover',
   backgroundRepeat: 'no-repeat'
 }}> 
@@ -103,26 +107,37 @@ const App = () => {
             <WalletDialogProvider>
             <Toolbar style={{background:'#000'  ,fontFamily:"Times New Roman" ,fontSize:'60px' ,justifyContent:'right', alignItems:'right',height:'10vh'}}> 
             <div style={{width:'10vw'}}> <img style={{height:'10vh'}}src={logo} alt="loading..." /></div>
-            <div style={{width:'80vw' ,fontFamily:"Times New Roman"}}>Project Cthuwu</div>
-            <div style={{width:'10vw'}}><Button>Discord</Button> 
-              <Button>Twitter</Button> </div>
+            <div style={{width:'80vw' ,fontFamily:"Times New Roman"}}>Project Cthuwu </div>
+            <div style={{width:'10vw'}}>
+            <Button ><a href="https://discord.gg/mwTg9N8szn" target="_blank">Discord</a></Button>
+              <Button ><a href="https://twitter.com/" target="_blank">Twitter</a></Button> </div> 
              
              
              </Toolbar>
 
 
-              <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '40vh', paddingTop:'90px', paddingBottom:'48px',
+              <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '60vh', paddingTop:'90px', paddingBottom:'48px',
               }}> 
 
               <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '15vw'}}></div>
 
-              <div style={{display: 'flex',  justifyContent:'left', alignItems:'left', width: '70vw' ,height: '50vh', padding:'8px',backgroundColor:'#1f1f1f' ,opacity: 0.95, borderRadius: "10px", overflow:'hidden'}} > 
+              <div style={{display: 'flex',  justifyContent:'left', alignItems:'left', width: '70vw' ,height: '60vh', padding:'8px',backgroundColor:'#1f1f1f' ,opacity: 0.95, borderRadius: "10px", overflow:'hidden'}} > 
               
-              <div style={{display: 'flex',  justifyContent:'left', alignItems:'left', width: '45%' ,height: '50vh', backgroundColor:'#0f1012'}}>
-                <div style={{width:'100%' ,padding:'24px', paddingLeft:'36px'}} ><h1 style={{fontFamily:"Times New Roman" ,fontSize:'48px', }}>10,000 unique generative Squid NFTs</h1>  <div   style={{ paddingTop:'4px'}}>
+              <div style={{display: 'flex',  justifyContent:'left', alignItems:'left', width: '45%' ,height: '60vh', backgroundColor:'#0f1012'}}>
+                <div style={{width:'100%' ,padding:'24px', paddingLeft:'36px'}} ><h1 style={{fontFamily:"Times New Roman" ,fontSize:'48px', }}>10,000 unique generative Squids on Solana</h1>  <div   style={{ paddingTop:'4px'}}>
 
-                  <p>The Cthuwu Collection consists of 10,00 unique generative squids. All squids are stored on-chain via metaplex candy machine. 
-                    Squid holders get access to the exclusive squid community and rights to vote on the format of future events. </p>
+                  {/* <p>The Cthuwu Collection consists of 10,00 squids stored on-chain via metaplex candy machine. 
+                    Squid holders get access to the exclusive squid community and all giveaways.   </p> */}
+
+                    <p>  1000 squids genesis are available for mint at ◎0.3 ,   
+                Genesis mint ◎ will be used to launch the rest of the collection.   </p>
+
+                <p> 
+                 Genesis squids will have exclusive traits and holders will be entered into exclusive giveaways for chances to win ◎ and 1/1 NFTs. 
+                <p>
+                Official mint will be ◎0.5  
+                  </p>
+                  </p>
                   <Home
               
               candyMachineId={candyMachineId}
@@ -137,18 +152,24 @@ const App = () => {
             </div></div>
                
                 </div>
-              <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '45%' ,height: '50vh', backgroundColor:'#0f1012'}} > 
-              <div style={{ display: 'flex',  justifyContent:'center', alignItems:'center', width: '350px' ,height: '350px', backgroundColor:'#ffff' , borderRadius: "10px", overflow:'hidden'}}>
+              <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '45%' ,height: '60vh', backgroundColor:'#0f1012'}} > 
+              <div style={{ display: 'flex',  justifyContent:'center', alignItems:'center', width: '400px' ,height: '400px', backgroundColor:'#0f1012' , borderRadius: "10px", overflow:'hidden'}}>
               <img style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '100%' ,height: '100%'}}src={gify} alt="loading..." />
                 </div> 
               
                 </div>  
-                <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '10%' ,height: '50vh', backgroundColor:'#0f1012' ,}} > 
+                <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '10%' ,height: '60vh', backgroundColor:'#0f1012' ,}} > 
               <div style={{ display: 'flex',  justifyContent:'center', alignItems:'center', width: '350px' ,height: '350px', backgroundColor:'#0f1012' , borderRadius: "10px", overflow:'hidden'}}>
         
-              <div style={{width:'100%' ,padding:'0px'}} >              <Button >-Credits-</Button>
-              <Button ></Button>
-              <Button >Metaplex</Button> <Button ></Button> <Button >Metaplex</Button> <Button ></Button> <Button >Metaplex</Button> <Button ></Button> <Button >Metaplex</Button>
+              <div style={{width:'100%' ,padding:'0px'}} >              
+              <Button >Current Status:</Button>
+    
+              <Button  >Genesis Mint</Button> 
+              <Button  >1000 squids</Button> 
+              <Button  >Exclusives:</Button>
+              <Button  >Solana bg</Button> 
+              <Button  >SoLands bg</Button>  
+              <Button  >UpOnly bg</Button> 
 </div>
                 </div>
                 </div>
@@ -159,7 +180,52 @@ const App = () => {
 
               
               
-             </div >
+             </div >             {/* //CARD START*/}
+             <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '40vh', paddingTop:'48px',
+              }}> 
+
+              <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '15vw'}}></div>
+
+              <div style={{display: 'flex',  justifyContent:'left', alignItems:'left', width: '70vw' ,height: '40vh', backgroundColor:'#1f1f1f' ,opacity: 0.95, borderRadius: "10px",padding:'8px', overflow:'hidden'}} > 
+              
+          
+              <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '45%' ,height: '40vh', backgroundColor:'#0f1012'}} > 
+              <div style={{ display: 'flex',  justifyContent:'center', alignItems:'center', width: '350px' ,height: '350px', backgroundColor:'#0f1012' , borderRadius: "10px", overflow:'hidden'}}>
+              <img style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '100%' ,height: '100%'}}src={exp} alt="loading..." />
+
+                </div>   
+                </div>
+                <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '10%' ,height: '40vh', backgroundColor:'#0f1012' ,}} > 
+                
+              <div style={{ display: 'flex',  justifyContent:'center', alignItems:'center', width: '350px' ,height: '350px', backgroundColor:'#0f1012' , borderRadius: "10px", overflow:'hidden'}}>
+                
+              <div style={{width:'100%' ,padding:'0px'}} > </div>
+                </div>
+                </div>    <div style={{display: 'flex',  justifyContent:'left', alignItems:'left', width: '45%' ,height: '40vh', backgroundColor:'#0f1012'}}>
+                <div style={{width:'100%' ,padding:'12px'}} ><h1 style={{fontFamily:"Times New Roman" ,fontSize:'36px'}}>Explore SoLands</h1>  <div   style={{ paddingTop:'4px'}}>
+                  
+                  {/* buttton  */}
+                  <p> 
+                  Squids are surfacing in different parts of the Solana system. Some have come accross a new frontier. 
+                 
+             
+               
+                  </p>
+                 
+                  <p> 
+                    <Button ><h1 style={{fontFamily:"Times New Roman" ,fontSize:'26px'}}>
+                  
+                  <a href="https://solands.xyz/#/" target="_blank">SOLANDS.XYZ</a></h1> </Button>
+                  </p>
+             
+                  </div></div>
+               
+                </div>
+              </div>
+
+              <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '10vw'}}></div>
+              
+             </div>
              {/* //CARD START*/}
              <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '40vh', paddingTop:'48px',
               }}> 
@@ -170,7 +236,9 @@ const App = () => {
               
           
               <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '45%' ,height: '40vh', backgroundColor:'#0f1012'}} > 
-              <div style={{ display: 'flex',  justifyContent:'center', alignItems:'center', width: '350px' ,height: '350px', backgroundColor:'#ffff' , borderRadius: "10px", overflow:'hidden'}}>
+              <div style={{ display: 'flex',  justifyContent:'center', alignItems:'center', width: '350px' ,height: '350px', backgroundColor:'#0f1012' , borderRadius: "10px", overflow:'hidden'}}>
+              <img style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '100%' ,height: '100%'}}src={ecosys} alt="loading..." />
+
                 </div>   
                 </div>
                 <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '10%' ,height: '40vh', backgroundColor:'#0f1012' ,}} > 
@@ -180,16 +248,20 @@ const App = () => {
               <div style={{width:'100%' ,padding:'0px'}} > </div>
                 </div>
                 </div>    <div style={{display: 'flex',  justifyContent:'left', alignItems:'left', width: '45%' ,height: '40vh', backgroundColor:'#0f1012'}}>
-                <div style={{width:'100%' ,padding:'12px'}} ><h1 style={{fontFamily:"Times New Roman" ,fontSize:'36px'}}>Traits</h1>  <div   style={{ paddingTop:'4px'}}>
+                <div style={{width:'100%' ,padding:'12px'}} ><h1 style={{fontFamily:"Times New Roman" ,fontSize:'36px'}}>On Chain Traits</h1>  <div   style={{ paddingTop:'4px'}}>
                   
                   {/* buttton  */}
                   <p> 
-                  Each squid's metadata is stored on Arweave, a permanent decentralized data storage.
+                  Each squid's metadata is stored on Arweave, a permanent decentralized data storage that is used as the Solana on-chain standard.
                    With 100+ possible traits varying in rarity spread over 6 layers, each mint gives you the chance to get a unique, rare squid. 
+             
                
                   </p>
                   <p> 
-                  *Rarity does not affect the number of entries for lotto events.
+               
+                  </p>
+                  <p> 
+                  Squids will reside permenantly on Solana. Owners have full commercial rights.
                   </p>
                   </div></div>
                
@@ -206,11 +278,14 @@ const App = () => {
               }}> 
 
 
-              <div style={{display: 'flex',  justifyContent:'left', alignItems:'left', width: '100vw' ,height: '40vh', backgroundColor:'#1f1f1f' ,opacity: 0.95, borderRadius: "10px", overflow:'hidden'}} > 
+              <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '100vw' ,height: '40vh', backgroundColor:'#1f1f1f' ,opacity: 0.8, borderRadius: "10px", overflow:'hidden'}} > 
               
               <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '100%' ,height: '40vh', backgroundColor:'#0f1012'}}>
-                <h1 style={{fontFamily:"Times New Roman" ,fontSize:'36px'}}>Roadmap</h1>
-              
+                <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '40%' ,height: '40vh', backgroundColor:'#0f1012'}}>
+                   <h1 style={{fontFamily:"Times New Roman" ,fontSize:'36px'}}> Win Life Changing SOL </h1>
+       </div>
+               
+           
            
 
                </div>
@@ -224,77 +299,6 @@ const App = () => {
                            {/* //CARD END*/}
 
 
-   {/* //CARD START*/}
-   <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '40vh', paddingTop:'48px',
-              }}> 
-
-              <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '15vw'}}></div>
-
-              <div style={{display: 'flex',  justifyContent:'left', alignItems:'left', width: '70vw' ,height: '40vh', backgroundColor:'#1f1f1f' ,opacity: 0.95, borderRadius: "10px",padding:'8px', overflow:'hidden'}} > 
-              
-          
-                <div style={{display: 'flex',  justifyContent:'left', alignItems:'left', width: '25%' ,height: '40vh', backgroundColor:'#0f1012' ,}} > 
-                
-              <div style={{ display: 'flex',  justifyContent:'left', alignItems:'left', width: '350px' ,height: '350px', backgroundColor:'#0f1012' , borderRadius: "10px", overflow:'hidden'}}>
-                
-              <div style={{width:'100%' ,padding:'0px'}} > <div style={{display: 'flex',  justifyContent:'left', alignItems:'left', width: '100%' ,height: '40vh', backgroundColor:'#0f1012'}}>
-                <div style={{width:'100%' ,padding:'12px'}} ><h1 style={{fontFamily:"Times New Roman" ,fontSize:'36px'}}>25% Sold</h1>  <div   style={{ paddingTop:'4px'}}>
-                  
-                  {/* buttton  */}
-                  <p> 
-                 After 2500 squids are sold the first OG Squid Lotto will take place. 500 ◎ will be airdropped to 500 squids. You're playing with house money now. 
-                  
-                  </p>
-                  <p> 
-                  
-                  </p>
-                  </div></div>
-               
-                </div></div>
-                </div>
-                </div>    <div style={{display: 'flex',  justifyContent:'left', alignItems:'left', width: '25%' ,height: '40vh', backgroundColor:'#0f1012'}}>
-                <div style={{width:'100%' ,padding:'12px'}} ><h1 style={{fontFamily:"Times New Roman" ,fontSize:'36px'}}>50% Sold</h1>  <div   style={{ paddingTop:'4px'}}>
-                  
-                  {/* buttton  */}
-                  <p> 
-                  After 5000 squids are sold the second OG Squid Lotto will take place. 250 ◎ will be airdropped to 250 squid holders. 
-                  
-                  </p>
-           
-                  </div></div>
-               
-                </div> <div style={{display: 'flex',  justifyContent:'left', alignItems:'left', width: '25%' ,height: '40vh', backgroundColor:'#0f1012'}}>
-                <div style={{width:'100%' ,padding:'12px'}} ><h1 style={{fontFamily:"Times New Roman" ,fontSize:'36px'}}>75% Sold</h1>  <div   style={{ paddingTop:'4px'}}>
-                  
-                  {/* buttton  */}
-                  <p> 
-                  After 7500 squids are sold the third OG Squid Lotto will take place. 250 ◎ will be airdropped to 250 squid holders. 
-                  
-                  </p>
-                  
-                  </div></div>
-               
-                </div><div style={{display: 'flex',  justifyContent:'left', alignItems:'left', width: '25%' ,height: '40vh', backgroundColor:'#0f1012'}}>
-                <div style={{width:'100%' ,padding:'12px'}} ><h1 style={{fontFamily:"Times New Roman" ,fontSize:'36px'}}>100% Sold</h1>  <div   style={{ paddingTop:'4px'}}>
-                  
-                  {/* buttton  */}
-                  <p> 
-                  At this point, 1000 ◎ will have been given out to squid holders, and an estimated ~4000 ◎ will be held in the treasury 
-                 
-                  </p>... <p> 
-                 
-                  </p>
-                  <p> 
-                  Then What?
-                  </p>
-                  </div></div>
-               
-                </div>
-              </div>
-
-              <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '10vw'}}></div>
-              
-             </div>
 
                                  {/* //CARD START*/}
              <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '40vh', paddingTop:'48px',
@@ -302,35 +306,48 @@ const App = () => {
 
               <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '15vw'}}></div>
 
-              <div style={{display: 'flex',  justifyContent:'left', alignItems:'left', width: '70vw' ,height: '40vh', backgroundColor:'#1f1f1f' ,opacity: 0.95, borderRadius: "10px",padding:'8px', overflow:'hidden'}} > 
+              <div style={{display: 'flex',  justifyContent:'left', alignItems:'left', width: '70vw' ,height: '45vh', backgroundColor:'#1f1f1f' ,opacity: 0.95, borderRadius: "10px",padding:'8px', overflow:'hidden'}} > 
               
           
-              <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '45%' ,height: '40vh', backgroundColor:'#0f1012'}} > 
-              <div style={{ display: 'flex',  justifyContent:'center', alignItems:'center', width: '350px' ,height: '350px', backgroundColor:'#ffff' , borderRadius: "10px", overflow:'hidden'}}>
+              <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '50%' ,height: '45vh', backgroundColor:'#0f1012'}} > 
+              <div style={{ display: 'flex',  justifyContent:'center', alignItems:'center', width: '600px' ,height: '400px', backgroundColor:'#0f1012' , borderRadius: "12px", overflow:'hidden'}}>
+              <img style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '100%' ,height: '85%',borderRadius: "12px"}}src={cash} alt="loading..." />
+
                 </div>   
                 </div>
-                <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '10%' ,height: '40vh', backgroundColor:'#0f1012' ,}} > 
+                <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '5%' ,height: '45vh', backgroundColor:'#0f1012' ,}} > 
                 
-              <div style={{ display: 'flex',  justifyContent:'center', alignItems:'center', width: '350px' ,height: '350px', backgroundColor:'#0f1012' , borderRadius: "10px", overflow:'hidden'}}>
+              <div style={{ display: 'flex',  justifyContent:'center', alignItems:'center', width: '400px' ,height: '400px', backgroundColor:'#0f1012' , borderRadius: "10px", overflow:'hidden'}}>
                 
               <div style={{width:'100%' ,padding:'0px'}} > </div>
                 </div>
-                </div>    <div style={{display: 'flex',  justifyContent:'left', alignItems:'left', width: '45%' ,height: '40vh', backgroundColor:'#0f1012'}}>
-                <div style={{width:'100%' ,padding:'4px'}} ><h1 style={{fontFamily:"Times New Roman" ,fontSize:'36px'}}>Royalty Distribution for Degens</h1>  <div   style={{ paddingTop:'4px'}}>
+                </div>    <div style={{display: 'flex',  justifyContent:'left', alignItems:'left', width: '45%' ,height: '45vh', backgroundColor:'#0f1012'}}>
+                <div style={{width:'100%' ,padding:'4px'}} ><h1 style={{fontFamily:"Times New Roman" ,fontSize:'36px'}}> Grand Squid Lotto </h1>  <div   style={{ paddingTop:'4px'}}>
                   
                
                   <p> 
-                  50% of all mint and sales profits will be sent to a community wallet/prize pool. 
-                  At the end of the year this wallet will be used to fund a holder exclusive draw. 
-                  </p>
-                  <p> 
-                  Luck of the draw: Prize pool will be evenly distributed amongst 10 random squids. 
-                  </p>
-         
+                 
+                  10 Winners will split a grand prize pool. 
+                  
                 
 
+               
+                  </p>    <p> 
+                  Minimum: ◎100 per winner. To increase over time based on mint % and royalties.
+                   
+              
+                  </p>
                   <p> 
-                  (Estimated prize pool after 100% sales and OG lottos: ◎4000)
+                  The 10 Grand Prize winners will be randomly selected on a livestream to be scheduled after 100% of squids have been minted. 
+                  </p>
+
+                  <p> 
+                  More events TBA
+                  </p>
+
+                <p> 
+                  
+                 
                   </p>
                   </div></div>
                
@@ -346,14 +363,37 @@ const App = () => {
 
 
 
+                           <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '60vh', paddingTop:'90px', paddingBottom:'48px',
+              }}> 
+
+            
+              <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '10vw'}}></div>
+              
+
+              
+              
+             </div >
+             <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '40vh', paddingTop:'48px',
+              }}> 
 
 
-                           {/* //CARD END*/}   
-                           {/* //CARD END*/}
-                             {/* //CARD START*/}
- 
+              <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '100vw' ,height: '40vh', backgroundColor:'#1f1f1f' ,opacity: 0.8, borderRadius: "10px", overflow:'hidden'}} > 
+              
+              <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '100%' ,height: '40vh', backgroundColor:'#0f1012'}}>
+                <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '40%' ,height: '40vh', backgroundColor:'#0f1012'}}>
+                   <h1 style={{fontFamily:"Times New Roman" ,fontSize:'36px'}}> Current Prize Pool: ◎1000 </h1>
+       </div>
+               
+           
+           
 
-                           {/* //CARD END*/}
+               </div>
+
+              
+
+              </div>
+              
+             </div>
              <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '100vh',backgroundColor:'#000',opacity: 0.0}}>            
  </div>
              <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '100vh',backgroundColor:'#000',opacity: 0.0}}> 
@@ -370,13 +410,13 @@ const App = () => {
             </WalletDialogProvider>
           </WalletProvider>
         </ConnectionProvider>
+        What if?
       </ThemeProvider>
       </Grid>
 
-      <Grid item xs={12} >
-      Photo by <a href="https://unsplash.com/@sleepmusic?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sleep Music</a> on <a href="https://unsplash.com/s/photos/deep-water?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
-    </Grid>
+      
+    
+   
 
     
 </Grid>
