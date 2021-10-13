@@ -10,9 +10,9 @@ import Background from "./background7.jpg";
 
 
 import gify from "./1.gif";
-import logo from "./LOGO1.png";
+
 import cash from "./cash.png";
-import solban from "./solban.png";
+
 
 import gith from "./gith.png";
 import twitter from "./twitter.png";
@@ -20,7 +20,7 @@ import disc from "./disc.png";
 
 import ecosys from "./ecosys.png";
 import exp from "./4.png";
-import gec from "./gec.png";
+
 import { clusterApiUrl } from "@solana/web3.js";
 import { WalletAdapterNetwork } from "@solana/wallet-adapter-base";
 import {
