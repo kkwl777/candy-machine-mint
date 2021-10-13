@@ -149,9 +149,9 @@ const App = () => {
               txTimeout={txTimeout} 
               
             />   <p style={{fontFamily: "Cairo"}}> 
-            Genesis Mint: ◎0.25 | Official Mint: ◎0.45 
+            Genesis Mint: ◎0.25 
               </p>
-                    <p style={{fontFamily: "Cairo"}}>  1000 genesis squids are available for mint,   
+                    <p style={{fontFamily: "Cairo"}}>  990 genesis squids are available for mint,   
                 Genesis mint ◎ will be used to launch the rest of the collection.   </p>
 
                 <p style={{fontFamily: "Cairo"}}> 
@@ -196,7 +196,7 @@ const App = () => {
              </div >             {/* //CARD START*/}
           
              {/* //CARD START*/}
-             <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '400px', paddingTop:'48px',
+             <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '400px', paddingTop:'48px'
               }}> 
 
               <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '15vw'}}></div>
@@ -210,9 +210,9 @@ const App = () => {
 
                 </div>   
                 </div>
-                <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '10%' ,height: '400px', backgroundColor:'#0f1012' ,borderRadius: "10px", overflow:'hidden'}} > 
+                <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '10%' ,height: '400px', backgroundColor:'#0f1012' ,}} > 
                 
-              <div style={{ display: 'flex',  justifyContent:'center', alignItems:'center', width: '350px' ,height: '350px', backgroundColor:'#0f1012' , }}>
+              <div style={{ display: 'flex',  justifyContent:'center', alignItems:'center', width: '350px' ,height: '350px', backgroundColor:'#0f1012' , borderRadius: "10px", overflow:'hidden'}}>
                 
               <div style={{width:'100%' ,padding:'0px'}} > </div>
                 </div>
@@ -221,17 +221,18 @@ const App = () => {
                   
                   {/* buttton  */}
                   <p style={{fontFamily: "Cairo"}}> 
-                  Each squid's metadata is stored on Arweave, a permanent decentralized data storage that is used as the Solana on-chain standard.
-                   With 100+ possible traits varying in rarity spread over 6 layers, each mint gives you the chance to get a unique, rare squid. 
+                  Each squid's metadata is stored on Arweave, a permanent decentralized data storage that is used as the Solana on-chain standard. With 100+ possible traits varying in rarity spread over 6 layers, each mint gives you the chance to get a unique, rare squid.
              
                
                   </p>
-                   <p  style={{fontFamily:"Cairo"}}> 
-               
-                  </p>
+                 
+                
                   <p style={{fontFamily: "Cairo"}}> 
                   Squids will reside permenantly on Solana. Owners have full commercial rights.
-                  </p>
+                 
+             
+               
+                  </p>   
                   </div></div>
                
                 </div>
@@ -351,7 +352,7 @@ const App = () => {
 
                
                   </p>     <p  style={{fontFamily:"Cairo"}}> 
-                  Grand prize Minimum: 10% of total mint revenue ~ ◎450. 
+                  Grand prize Minimum: 10% of total mint revenue ~ ◎?. 
                    
               
                   </p>
@@ -426,13 +427,13 @@ const App = () => {
                   -Stealth launch genesis mint to fund official launch </p> 
                   <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}> -Official launch with 10% total mint reserved for giveaways, 40% reserved for Squid community wallet 
  </p> <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}> -SOL and NFT giveaways for every 25% minted 
- </p>
+ </p> <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}>  -Get listed on secondary markets 
+</p>
  <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}> -Integrate Grape Protocol for exclusive perks (verification, private channels, rewards)
  </p>
  <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}> -Art battle with winners chosen by verified holders
  </p>
- <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}>  -Get listed on secondary markets 
-</p>
+
 <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}> -Grand Squid Giveaway at 100% minted
  </p>
  <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}> -Verified holders vote on Solana DAO launch pad and Metaverse projects to support</p>
