@@ -12,6 +12,8 @@ import Background from "./background7.jpg";
 import gify from "./1.gif";
 
 import cash from "./cash.png";
+import atlas1 from "./atlas1.png";
+import atlas2 from "./atlas2.png";
 
 
 import gith from "./gith.png";
@@ -103,7 +105,7 @@ const App = () => {
   // backgroundImage: `url(${Background})`
   return (
     <Grid container>
-    <Grid item xs={12}   style={{  backgroundColor:'background: rgb(0,0,0)', background:'linear-gradient(162deg, rgba(34,224,162,1) 0%, rgba(53,149,255,1) 52%, rgba(156,25,211,1) 93%, rgba(205,0,255,1) 100%)', backgroundPosition: 'center', 
+    <Grid item xs={12}   style={{  backgroundColor:'background: rgb(0,0,0)', background:'linear-gradient(128deg, rgba(61,0,83,1) 2%, rgba(185,57,231,1) 19%, rgba(92,65,248,1) 47%, rgba(53,149,255,1) 64%, rgba(25,211,175,1) 98%, rgba(0,232,255,1) 100%)', backgroundPosition: 'center', 
   backgroundSize: 'cover',
   backgroundRepeat: 'no-repeat'
 }}> 
@@ -403,25 +405,30 @@ const App = () => {
              </div>     
          
                                  {/* //CARD START*/}
-                                 <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '900px', paddingTop:'48px',
+                                 <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '1000px', paddingTop:'48px',
               }}> 
 
               <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '15vw'}}></div>
 
-              <div style={{display: 'flex',  justifyContent:'left', alignItems:'left', width: '70vw' ,height: '900px', backgroundColor:'#1f1f1f' ,opacity: 0.95, borderRadius: "10px",padding:'8px', overflow:'hidden'}} > 
+              <div style={{display: 'flex',  justifyContent:'left', alignItems:'left', width: '70vw' ,height: '1000px', backgroundColor:'#1f1f1f' ,opacity: 0.95, borderRadius: "10px",padding:'8px', overflow:'hidden'}} > 
               
           
      
-                <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '5%' ,height: '900px', backgroundColor:'#0f1012' ,}} > 
+                <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '5%' ,height: '1000px', backgroundColor:'#0f1012' ,}} > 
                 
-              <div style={{ display: 'flex',  justifyContent:'center', alignItems:'center', width: '400px' ,height: '900px', backgroundColor:'#0f1012' , borderRadius: "10px", overflow:'hidden'}}>
+              <div style={{ display: 'flex',  justifyContent:'center', alignItems:'center', width: '400px' ,height: '1000px', backgroundColor:'#0f1012' , borderRadius: "10px", overflow:'hidden'}}>
                 
               <div style={{width:'100%' ,padding:'0px'}} > </div>
                 </div>
-                </div>    <div style={{display: 'flex',  justifyContent:'left', alignItems:'left', width: '85%' ,height: '900px', backgroundColor:'#0f1012'}}>
+                </div>    <div style={{display: 'flex',  justifyContent:'left', alignItems:'left', width: '85%' ,height: '1000px', backgroundColor:'#0f1012'}}>
                 <div style={{width:'100%' ,padding:'4px'}} ><h1 style={{fontFamily:"Cairo" ,fontSize:'36px'}}>Roadmap v1</h1>  <div   style={{ paddingTop:'4px'}}>
-                  
-               
+
+                 <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}> 
+                 
+                 -Generate unique squids </p> 
+                <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}> 
+                 
+                  -Create nft candy machine and website v1 </p> 
                   <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}> 
                  
                   -Stealth launch genesis mint to fund official launch </p> 
@@ -436,9 +443,13 @@ const App = () => {
 
 <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}> -Grand Squid Giveaway at 100% minted
  </p>
+ <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}> -Develop website and sales bot
+ </p>
  <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}> -Verified holders vote on Solana DAO launch pad and Metaverse projects to support</p>
  <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}> -3D Squids modeled after the community's favorite submissions from the art battle</p>
- <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}> -Claim Metaverse squid territory (Star atlas land coming soon?)</p>
+ <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}> -Claim Metaverse squid territory (ex: Star Atlas land sale coming soon)</p>
+
+
 
 
 
@@ -455,8 +466,8 @@ const App = () => {
                  
                   </div></div>
                
-                </div>         <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '10%' ,height: '900px', backgroundColor:'#0f1012'}} > 
-              <div style={{ display: 'flex',  justifyContent:'center', alignItems:'center', width: '600px' ,height: '900px', backgroundColor:'#0f1012' , borderRadius: "12px", overflow:'hidden'}}>
+                </div>         <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '10%' ,height: '1000px', backgroundColor:'#0f1012'}} > 
+              <div style={{ display: 'flex',  justifyContent:'center', alignItems:'center', width: '600px' ,height: '1000px', backgroundColor:'#0f1012' , borderRadius: "12px", overflow:'hidden'}}>
                 <div style={{ width: '400px' ,height: '400px'}}>
               {/* <img style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '400px' ,height: '400px',borderRadius: "12px"}}src={gec} alt="loading..." />A single gecko with fulltime crypto dreams */}
               </div> 
@@ -552,7 +563,8 @@ const App = () => {
 
               </div>
               
-             </div>    
+             </div>      <img style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '100%' ,height: '800px',borderRadius: "12px", }}src={atlas1} alt="loading..." />
+             <img style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '100%' ,height: '800px',borderRadius: "12px"}}src={atlas2} alt="loading..." />
              <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '100vh',backgroundColor:'#000',opacity: 0.0}}>            
  </div>
              <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '100vh',backgroundColor:'#000',opacity: 0.0}}> 
