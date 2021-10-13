@@ -148,11 +148,11 @@ const Home = (props: HomeProps) => {
   return (
     <main>
       {wallet && (
-        <p>Address: {shortenAddress(wallet.publicKey.toBase58() || "")}</p>
+         <p  style={{fontFamily:"Cairo"}}>Address: {shortenAddress(wallet.publicKey.toBase58() || "")}</p>
       )}
 
       {wallet && (
-        <p>Balance: {(balance || 0).toLocaleString()} SOL</p>
+         <p  style={{fontFamily:"Cairo"}}>Balance: {(balance || 0).toLocaleString()} SOL</p>
       )}
 
       <MintContainer>
