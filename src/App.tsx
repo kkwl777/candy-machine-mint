@@ -443,11 +443,11 @@ const App = () => {
 
 <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}> -Grand Squid Giveaway at 100% minted
  </p>
- <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}> -Host Squid Hackathon for an open source website redesign. 
+ <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}> -Host Squid Hackathon for an open source website redesign 
  </p>
  <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}> -Verified holders vote on Solana DAO launch pad and Metaverse projects to support</p>
  <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}> -3D Squids modeled after the community's favorite submissions from the art battle</p>
- <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}> -Claim Metaverse Squid territory </p>
+ <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}> -Claim Metaverse Squid territory</p>
 
 
 
