@@ -137,7 +137,7 @@ const App = () => {
               <div style={{display: 'flex',  justifyContent:'left', alignItems:'left', width: '70vw' ,height: '650px', padding:'8px',backgroundColor:'#1f1f1f' ,opacity: 0.95, borderRadius: "10px", overflow:'hidden'}} > 
               
               <div style={{display: 'flex',  justifyContent:'left', alignItems:'left', width: '45%' ,height: '650px', backgroundColor:'#0f1012'}}>
-                <div style={{width:'100%' ,padding:'18px', paddingLeft:'36px'}} ><h1 style={{fontFamily:"Cairo" ,fontSize:'48px', }}>10,000 unique generative Squids on Solana</h1>  <div   style={{ paddingTop:'4px'}}>
+                <div style={{width:'100%' ,padding:'18px', paddingLeft:'36px'}} ><h1 style={{fontFamily:"Cairo" ,fontSize:'48px', }}>9,999 unique generative Squids on Solana</h1>  <div   style={{ paddingTop:'4px'}}>
 
                   {/*  <p  style={{fontFamily:"Cairo"}}>The Cthuwu Collection consists of 10,00 squids stored on-chain via metaplex candy machine. 
                     Squid holders get access to the exclusive squid community and all giveaways.   </p> */}
@@ -180,7 +180,7 @@ const App = () => {
               <p >Status:</p>
     
                <p  style={{fontFamily:"Cairo"}}>Genesis Mint</p> 
-               <p  style={{fontFamily:"Cairo"}}>1000 squids</p> 
+        
                <p  style={{fontFamily:"Cairo"}}>Exclusives:</p>
                <p  style={{fontFamily:"Cairo"}}>Solana bg</p> 
                <p  style={{fontFamily:"Cairo"}}>SoLands bg</p>  
@@ -390,7 +390,7 @@ const App = () => {
               
               <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '100%' ,height: '300px', backgroundColor:'#0f1012'}}>
                 <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '40%' ,height: '300px', backgroundColor:'#0f1012'}}>
-                   <h1 style={{fontFamily:"Cairo" ,fontSize:'36px'}}> 40% mint + royalties to community wallet</h1>
+                   <h1 style={{fontFamily:"Cairo" ,fontSize:'36px'}}> 30% mint + royalties to community wallet</h1>
        </div>
                
            
@@ -423,16 +423,16 @@ const App = () => {
                 </div>    <div style={{display: 'flex',  justifyContent:'left', alignItems:'left', width: '85%' ,height: '1000px', backgroundColor:'#0f1012'}}>
                 <div style={{width:'100%' ,padding:'4px'}} ><h1 style={{fontFamily:"Cairo" ,fontSize:'36px'}}>Roadmap v1</h1>  <div   style={{ paddingTop:'4px'}}>
 
-                 <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}> 
+                 <p  style={{fontFamily:"Cairo" ,fontSize:'20px',textDecorationLine: 'line-through'}}> 
                  
                  -Generate unique squids </p> 
-                <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}> 
+                <p  style={{fontFamily:"Cairo" ,fontSize:'20px',textDecorationLine: 'line-through'}}> 
                  
                   -Create nft candy machine and website v1 </p> 
                   <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}> 
                  
-                  -Stealth launch genesis mint to fund official launch </p> 
-                  <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}> -Official launch with 10% total mint reserved for giveaways, 40% reserved for Squid community wallet 
+                  -Stealth launch genesis mint to fund official launch  {'<'} </p> 
+                  <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}> -Official launch with 10% total mint reserved for giveaways, 30% reserved for Squid community wallet 
  </p> <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}> -SOL and NFT giveaways for every 25% minted 
  </p> <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}>  -Get listed on secondary markets 
 </p>
@@ -447,7 +447,7 @@ const App = () => {
  </p>
  <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}> -Verified holders vote on Solana DAO launch pad and Metaverse projects to support</p>
  <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}> -3D Squids modeled after the community's favorite submissions from the art battle</p>
- <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}> -Claim Metaverse squid territory (ex: Star Atlas land sale coming soon)</p>
+ <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}> -Claim Metaverse squid territory (Star Atlas Squid Guild?)</p>
 
 
 
@@ -543,14 +543,14 @@ const App = () => {
               </div>
               
              </div>                    
-             <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '300px', paddingTop:'48px',
+             <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '200px', paddingTop:'48px'
               }}> 
 
 
-              <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '100vw' ,height: '300px', backgroundColor:'#1f1f1f' , borderRadius: "10px", overflow:'hidden'}} > 
+              <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '100vw' ,height: '200px', backgroundColor:'#1f1f1f' , borderRadius: "10px", overflow:'hidden'}} > 
               
-              <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '100%' ,height: '300px', backgroundColor:'#0f1012'}}>
-                <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '100%' ,height: '300px', backgroundColor:'#0f1012'}}>
+              <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '100%' ,height: '200px', backgroundColor:'#0f1012'}}>
+                <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '100%' ,height: '200px', backgroundColor:'#0f1012'}}>
                    <h1 style={{fontFamily:"Cairo" ,fontSize:'36px'}}> Squids will look to support community vetted Solana Metaverse Projects</h1>
        </div>
                
@@ -563,8 +563,36 @@ const App = () => {
 
               </div>
               
-             </div>      <img style={{display: 'flex',  justifyContent:'center', paddingTop:'48px', alignItems:'center', width: '100%' ,height: '800px',borderRadius: "12px", }}src={atlas1} alt="loading..." />
-             <img style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '100%' ,height: '800px',borderRadius: "12px"}}src={atlas2} alt="loading..." />
+             </div>   
+ 
+   
+             {/* <h1 style={{fontFamily:"Cairo" ,fontSize:'36px',padding:'12px'}}> Star Atlas Squid Guild?</h1> */}
+              {/* <img style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '100%' ,height: '1000px',borderRadius: "12px" }}src={atlas1} alt="loading..." />
+             <img style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '100%' ,height: '1000px',borderRadius: "12px"}}src={atlas2} alt="loading..." />    
+         */}
+
+
+
+               <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '200px', paddingTop:'48px',paddingBottom:'48px' }}> 
+
+
+              <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '100vw' ,height: '200px', backgroundColor:'#1f1f1f' , borderRadius: "10px", overflow:'hidden'}} > 
+              
+              <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '100%' ,height: '200px', backgroundColor:'#0f1012'}}>
+                <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '100%' ,height: '200px', backgroundColor:'#0f1012'}}>
+                   <h1 style={{fontFamily:"Cairo" ,fontSize:'36px'}}> More TBA </h1>
+       </div>
+               
+           
+           
+
+               </div>
+
+              
+
+              </div>
+              
+             </div> 
              <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '100vh',backgroundColor:'#000',opacity: 0.0}}>            
  </div>
              <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '100vh',backgroundColor:'#000',opacity: 0.0}}> 
