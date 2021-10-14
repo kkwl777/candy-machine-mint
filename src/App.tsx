@@ -443,7 +443,7 @@ const App = () => {
 
 <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}> -Grand Squid Giveaway at 100% minted
  </p>
- <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}> -Develop website and sales bot
+ <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}> -Host Squid Hackathon for an open source website redesign. 
  </p>
  <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}> -Verified holders vote on Solana DAO launch pad and Metaverse projects to support</p>
  <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}> -3D Squids modeled after the community's favorite submissions from the art battle</p>
@@ -530,7 +530,7 @@ const App = () => {
               
               <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '100%' ,height: '200px', backgroundColor:'#0f1012'}}>
                 <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '100%' ,height: '200px', backgroundColor:'#0f1012'}}>
-                   <h1 style={{fontFamily:"Cairo" ,fontSize:'36px'}}> Community choosen winners will be modeled in 3D</h1>
+                   <h1 style={{fontFamily:"Cairo" ,fontSize:'36px'}}> Community choosen winners will be modeled in 3D</h1>   <a></a>
        </div>
                
            
@@ -541,7 +541,27 @@ const App = () => {
               
 
               </div>
+                   
+             </div>                    
+             <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '200px', paddingTop:'48px'
+              }}> 
+
+
+              <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '100vw' ,height: '200px', backgroundColor:'#1f1f1f' , borderRadius: "10px", overflow:'hidden'}} > 
               
+              <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '100%' ,height: '200px', backgroundColor:'#0f1012'}}>
+                <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '100%' ,height: '200px', backgroundColor:'#0f1012'}}>
+                   <h1 style={{fontFamily:"Cairo" ,fontSize:'36px'}}> Website redesign contest: Win SOL and NFTs for redesigning an open source front end</h1> 
+       </div>
+     
+           
+           
+
+               </div>
+
+              
+
+              </div>
              </div>                    
              <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '200px', paddingTop:'48px'
               }}> 
@@ -610,7 +630,7 @@ const App = () => {
             </WalletDialogProvider>
           </WalletProvider>
         </ConnectionProvider>
-        What if?
+        Built on Solana
       </ThemeProvider>
       </Grid>
 
