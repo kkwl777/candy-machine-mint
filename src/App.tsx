@@ -428,10 +428,10 @@ const App = () => {
                  -Generate unique squids </p> 
                 <p  style={{fontFamily:"Cairo" ,fontSize:'20px',textDecorationLine: 'line-through'}}> 
                  
-                  -Create nft candy machine and website v1 </p> 
+                  -Create NFT candy machine and website v1 </p> 
                   <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}> 
                  
-                  -Stealth launch genesis mint to fund official launch  {'<'} </p> 
+                  -Stealth launch genesis mint to fund official launch  {'<<'} </p> 
                   <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}> -Official launch with 10% total mint reserved for giveaways, 30% reserved for Squid community wallet 
  </p> <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}> -SOL and NFT giveaways for every 25% minted 
  </p> <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}>  -Get listed on secondary markets 
