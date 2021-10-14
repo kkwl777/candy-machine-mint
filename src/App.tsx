@@ -123,7 +123,7 @@ const App = () => {
             <Button ><a href="https://github.com/SolanaGalaxySquids" target="_blank" rel="noopener noreferrer"><img style={{height:'3.5vh'}}src={gith} alt="loading..." /></a></Button>
             <Button ><a href="https://discord.gg/mwTg9N8szn" target="_blank" rel="noopener noreferrer"><img style={{height:'4vh'}}src={disc} alt="loading..." /></a></Button> 
             
-              <Button ><a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><img style={{height:'2.5vh'}}src={twitter} alt="loading..." /></a></Button> </div> 
+              <Button ><a href="https://twitter.com/SolGalaxySquids" target="_blank" rel="noopener noreferrer"><img style={{height:'2.5vh'}}src={twitter} alt="loading..." /></a></Button> </div> 
              
              
              </Toolbar>
