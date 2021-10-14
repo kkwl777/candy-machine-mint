@@ -563,7 +563,7 @@ const App = () => {
 
               </div>
               
-             </div>      <img style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '100%' ,height: '800px',borderRadius: "12px", }}src={atlas1} alt="loading..." />
+             </div>      <img style={{display: 'flex',  justifyContent:'center', paddingTop:'48px', alignItems:'center', width: '100%' ,height: '800px',borderRadius: "12px", }}src={atlas1} alt="loading..." />
              <img style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '100%' ,height: '800px',borderRadius: "12px"}}src={atlas2} alt="loading..." />
              <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '100vh',backgroundColor:'#000',opacity: 0.0}}>            
  </div>
