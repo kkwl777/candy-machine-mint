@@ -447,7 +447,7 @@ const App = () => {
  </p>
  <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}> -Verified holders vote on Solana DAO launch pad and Metaverse projects to support</p>
  <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}> -3D Squids modeled after the community's favorite submissions from the art battle</p>
- <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}> -Claim Metaverse squid territory (Star Atlas Squid Guild?)</p>
+ <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}> -Claim Metaverse Squid territory </p>
 
 
 
