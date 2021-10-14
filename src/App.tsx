@@ -137,7 +137,7 @@ const App = () => {
               <div style={{display: 'flex',  justifyContent:'left', alignItems:'left', width: '70vw' ,height: '650px', padding:'8px',backgroundColor:'#1f1f1f' ,opacity: 0.95, borderRadius: "10px", overflow:'hidden'}} > 
               
               <div style={{display: 'flex',  justifyContent:'left', alignItems:'left', width: '45%' ,height: '650px', backgroundColor:'#0f1012'}}>
-                <div style={{width:'100%' ,padding:'18px', paddingLeft:'36px'}} ><h1 style={{fontFamily:"Cairo" ,fontSize:'48px', }}>9,999 unique generative Squids on Solana</h1>  <div   style={{ paddingTop:'4px'}}>
+                <div style={{width:'100%' ,padding:'18px', paddingLeft:'36px'}} ><h1 style={{fontFamily:"Cairo" ,fontSize:'48px', }}>10,000 unique generative Squids on Solana</h1>  <div   style={{ paddingTop:'4px'}}>
 
                   {/*  <p  style={{fontFamily:"Cairo"}}>The Cthuwu Collection consists of 10,00 squids stored on-chain via metaplex candy machine. 
                     Squid holders get access to the exclusive squid community and all giveaways.   </p> */}
