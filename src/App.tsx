@@ -118,7 +118,7 @@ const App = () => {
             <WalletDialogProvider>
             <Toolbar style={{background:'#000'  ,fontFamily:"Cairo" ,fontSize:'60px' ,justifyContent:'right', alignItems:'right',height:'10vh'}}> 
          
-            <div style={{width:'84vw' ,fontFamily:"Cairo"}}> Solana Galaxy Squids </div>
+            <div style={{width:'84vw' ,fontFamily:"Cairo"}}> Solana Galaxy Squids v1</div>
             <div style={{width:'16vw'}}>
             <Button ><a href="https://github.com/SolanaGalaxySquids" target="_blank" rel="noopener noreferrer"><img style={{height:'3.5vh'}}src={gith} alt="loading..." /></a></Button>
             <Button ><a href="https://discord.gg/xW4U5P3vUf" target="_blank" rel="noopener noreferrer"><img style={{height:'4vh'}}src={disc} alt="loading..." /></a></Button> 
