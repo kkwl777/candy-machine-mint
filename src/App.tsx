@@ -390,7 +390,7 @@ const App = () => {
               
               <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '100%' ,height: '300px', backgroundColor:'#0f1012'}}>
                 <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '40%' ,height: '300px', backgroundColor:'#0f1012'}}>
-                   <h1 style={{fontFamily:"Cairo" ,fontSize:'36px'}}> 30% mint + royalties to community wallet</h1>
+                   <h1 style={{fontFamily:"Cairo" ,fontSize:'36px'}}> 30% mint + royalties to commmunity wallet</h1>
        </div>
                
            
@@ -435,6 +435,8 @@ const App = () => {
                   <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}> -Official launch with 10% total mint reserved for giveaways, 30% reserved for Squid community wallet 
  </p> <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}> -SOL and NFT giveaways for every 25% minted 
  </p> <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}>  -Get listed on secondary markets 
+</p>
+<p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}>  -Start regular floor sweeps. Paper handed squids will be bought and sent to a burn wallet, thus being removed from circulation. 
 </p>
  <p  style={{fontFamily:"Cairo" ,fontSize:'20px'}}> -Integrate Grape Protocol for exclusive perks (verification, private channels, rewards)
  </p>
