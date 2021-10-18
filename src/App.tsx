@@ -189,7 +189,7 @@ const App = () => {
                   {/*  <p  style={{fontFamily:"Cairo"}}>The Cthuwu Collection consists of 10,00 squids stored on-chain via metaplex candy machine. 
                     Squid holders get access to the exclusive squid community and all giveaways.  10,000 unique generative Squids on Solana </p> */}
   
-                    <p style={{fontFamily: "Cairo"}}> As of October 19th Squids are venturing out into space. Unfortunately, the average squid is not suited deep space exploration and most of them are not gonna make it. 
+                    <p style={{fontFamily: "Cairo"}}>Squids are venturing out into deep space. Unfortunately, the average squid is not suited deep space exploration and most of them are not gonna make it. 
  </p>
 <p style={{fontFamily: "Cairo"}}>Whether it's because of incompetence or the threat of apex predators like sharks and geckos, Squid lives are lost almost every week. </p>
 <p  style={{fontFamily: "Cairo"}}>Great calamaties like black holes and supernovas can take out even those with the strongest wills. (Burn events)  </p>
